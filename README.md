@@ -6,12 +6,16 @@
 
 It's a compact monospace font, similar to [Anka/Coder Narrow](https://fontlibrary.org/en/font/anka-coder-narrow), and supporting the basic ASCII character set (eventually also Cyrillic).
 
+## Version 0.2
+
+- Cleaned up 31 glyphs in `Narain-fixed.sfd`: capitals, digits and ascenders share one cap line, lowercase letters share an x-height, baselines and descender depths normalized. Every glyph keeps its 470-unit advance.
+- `Narain-Regular.ttf` is an installable build generated from the fixed source.
+
 Still left to do:
 
-- Clean up ascender and descender caps
-- Ensure consistent width for all stems
+- Ensure consistent width for all stems (needs redrawing by hand, not automation)
 - Tweak spacing to avoid optical gaps
-- Add more characters
+- Add more characters (eventually Cyrillic)
 
 Check out the [Releases page](https://github.com/cmihai/narain/releases/) for downloads.
 
