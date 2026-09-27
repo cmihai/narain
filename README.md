@@ -6,6 +6,18 @@
 
 It's a compact monospace font, similar to [Anka/Coder Narrow](https://fontlibrary.org/en/font/anka-coder-narrow), and supporting the basic ASCII character set (eventually also Cyrillic).
 
+## Version 0.3
+
+- Added 41 Cyrillic glyphs: 30 traced from the 1988 Soviet edition's monospace code font (lowercase а-я except ж х ш ъ ы э я, uppercase Б И О У Ш), plus 11 Latin-lookalike aliases (А В Е К М Н О Р С Т Х).
+- Traced glyphs are centered in the 470-unit cell with proper x-height (588), cap line (820), and descenders (-204).
+- `Narain-Regular.ttf` rebuilt from the updated source.
+
+Still left to do:
+
+- Ensure consistent width for all stems (needs redrawing by hand, not automation)
+- Tweak spacing to avoid optical gaps
+- Add remaining Cyrillic letters (ж х ш ъ ы э я and more capitals)
+
 ## Version 0.2
 
 - Cleaned up 31 glyphs in `Narain-fixed.sfd`: capitals, digits and ascenders share one cap line, lowercase letters share an x-height, baselines and descender depths normalized. Every glyph keeps its 470-unit advance.
