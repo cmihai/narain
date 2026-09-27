@@ -6,7 +6,13 @@
 
 It's a compact monospace font, similar to [Anka/Coder Narrow](https://fontlibrary.org/en/font/anka-coder-narrow), and supporting the basic ASCII character set (eventually also Cyrillic).
 
+## Version 0.5
+
+- Fixed stroke widths for geometrically-constructed glyphs (П, Д, Ъ, ъ) to match the traced glyphs' 65-unit bold monospace weight.
+- All constructed glyphs now have consistent visual weight with the 27 correctly-traced Cyrillic letters.
+
 ## Version 0.4
+
 
 - Completed the Cyrillic alphabet: 64 codepoints covering the full Russian alphabet plus Ё.
 - Added 24 constructed glyphs for missing letters (ж х ш ъ ы э я, Д П Ф Г Ж З Й Л Ц Ч Щ Ъ Ы Ь Э Ю Я Ё), built from verified traced components to preserve the font's curves and angles.
